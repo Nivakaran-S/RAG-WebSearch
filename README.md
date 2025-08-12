@@ -1,8 +1,8 @@
-# 🔎 LangChain Search Agent — Conversational Web & Research Assistant
+# 🔎 LangChain Search Agent: Conversational Web & Research Assistant
 
 ## 🚀 Project Overview
 
-This is an **AI-powered conversational search agent** built with **LangChain** and **Streamlit**, capable of searching the web, Wikipedia, and scientific papers from Arxiv — all in real-time — to deliver **relevant, concise answers** to your questions.
+This is an **AI-powered conversational search agent** built with **LangChain** and **Streamlit**, capable of searching the web, Wikipedia, and scientific papers from Arxiv, all in real-time, to deliver **relevant, concise answers** to your questions.
 
 The app leverages **LangChain agents** to dynamically choose the best information source, integrate results, and respond naturally in a chat interface.  
 It showcases skills in **tool-augmented LLMs**, **API integration**, and **real-time conversational UX**.
@@ -27,10 +27,10 @@ It showcases skills in **tool-augmented LLMs**, **API integration**, and **real-
 
 This project demonstrates **production-relevant AI engineering skills**, including:
 
-- **Tool-Augmented LLM Workflows** — enabling the LLM to call APIs and fetch real-time data.
-- **Research Assistant Use Case** — combines general, encyclopedic, and academic knowledge sources.
-- **LangChain Agent Integration** — implements reasoning + action loop for tool selection.
-- **Streamlit Frontend** — builds an interactive UI for non-technical end users.
+- **Tool-Augmented LLM Workflows**: enabling the LLM to call APIs and fetch real-time data.
+- **Research Assistant Use Case**: combines general, encyclopedic, and academic knowledge sources.
+- **LangChain Agent Integration**: implements reasoning + action loop for tool selection.
+- **Streamlit Frontend**: builds an interactive UI for non-technical end users.
 
 It’s a **portfolio-ready showcase** of how AI can be extended beyond static knowledge into **live, dynamic information retrieval**.
 
@@ -81,7 +81,7 @@ streamlit run app.py
 - Watch the assistant think, choose tools, and fetch results in real time.
 
 
-## 📈 How It Works — High-Level Flow
+## 📈 How It Works: High-Level Flow
 1. User Query Input: Captured via Streamlit’s chat_input.
 2. Agent Initialization: LLM + tools (DuckDuckGo, Wikipedia, Arxiv) wrapped as LangChain tools.
 3. Zero-Shot Agent Reasoning: Chooses which tool(s) to invoke based on the question.
