@@ -1,11 +1,5 @@
 # 🔎 LangChain Search Agent — Conversational Web & Research Assistant
 
-[![Streamlit](https://img.shields.io/badge/streamlit-app-brightgreen)](https://streamlit.io/)  
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
-[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
----
-
 ## 🚀 Project Overview
 
 This is an **AI-powered conversational search agent** built with **LangChain** and **Streamlit**, capable of searching the web, Wikipedia, and scientific papers from Arxiv — all in real-time — to deliver **relevant, concise answers** to your questions.
